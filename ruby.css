@@ -58,6 +58,16 @@ a {
     padding-bottom: 80px;
 }
 
+.header {
+    position: fixed;
+    width: 100%;
+    background: #c998e2;
+    z-index: 10000000;
+}
+
+.introduction {
+    padding-top: 100px;
+}
 
 .head {
     display: flex;
@@ -581,7 +591,7 @@ button.ORDERNOW {
     border: transparent;
     box-shadow: 0px 0px 7px -1px rebeccapurple;
     transition: 0.5s;
-    z-index: 10;
+    z-index: 9;
 }
 
 button.ORDERNOW:HOVER {
